@@ -36,3 +36,58 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-color: #671e75;
+}
+
+h1 {
+  font-family: Abraham;
+  font-weight: inherit;
+  font-size: 60px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+h2 {
+  font-family: Abraham;
+  font-weight: inherit;
+  font-size: 46px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+.col1-3 {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+.col2-3 {
+  float: left;
+  width: 66.33%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.portionVideo {
+  height: 600px;
+}
+
+@font-face {
+  font-family: Abraham;
+  src: url("Abraham-Regular.otf") format("opentype");
+}
